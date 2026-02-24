@@ -22,3 +22,17 @@ export const data = [
     end: "I enjoy building tools and systems that solve real problems and continuously challenge me to grow as an engineer.",
   },
 ];
+
+export const skills = {
+  core: "C | C++ | Python | JavaScript",
+  frontend:
+    "Reactjs | Vite | HTML5 | CSS3 | JavaScript | TypeScript | Tailwind CSS | Redux/Context API | Hooks | State Management",
+  backend:
+    "Nodejs | Expressjs | REST API Development | CRUD operation | FastApi ",
+  tools: "Git/Github | Postman | VS Code | PyCharm | Docker | Kali Linux",
+  databases: "MongoDB, MySQL",
+  Cyber:
+    "Kali Linux | Cyber & Forensics Tools | Nmap | WireShark | DOS & DDOS | Cryptography | Steganography | Autopsy | FTK imager | Disk Imaging | JTR | Digital Forensics",
+  Concepts:
+    "Data Structure & Algorithm | Full Stack Mern Development | REST APIs | Authentication and Authorization | JWT token, OAuth | CRUD operations | MVC Architecture | API integration | Responsive Design | System Design Basics",
+};
