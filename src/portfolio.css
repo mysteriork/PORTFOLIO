@@ -110,7 +110,6 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 3px;
   font-weight: bolder;
-  
 }
 
 .links {
@@ -440,7 +439,7 @@ p {
 
 .skill > h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
+  font-size: 0.9rem;
   padding: 5px;
   width: fit-content;
   border: 1px solid var(--accent-green);
@@ -745,6 +744,7 @@ p {
     text-align: center;
     list-style: none;
     font-weight: 500;
+    font-size: medium;
   }
 
   .edu {
@@ -782,10 +782,11 @@ p {
   }
 
   .skill > h3 {
-    font-size: medium;
+    font-size: 0.9rem;
   }
 
   .skill > p {
+    text-align: center;
     font-size: medium;
     font-weight: 500;
   }
