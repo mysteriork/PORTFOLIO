@@ -51,13 +51,17 @@ p {
 
 #Header {
   padding: 15px;
-  position: relative;
   justify-content: space-between;
   top: 0;
   width: 100vw;
   height: 100px;
+  backdrop-filter: blur(5px);
   border-bottom: 2px solid rgb(253, 252, 252);
   z-index: 9999;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .head {
@@ -102,6 +106,7 @@ p {
 /* HERO SECTION  */
 
 #HeroBody {
+  margin-top: 150px;
   min-height: 100vh;
   width: 100vw;
 }
@@ -230,7 +235,12 @@ p {
 
 /* PROJECTS PAGE*/
 
+.normal {
+  position: relative;
+}
+
 #ProjectPage {
+  margin-top: 30px;
   min-height: 100vh;
   padding: 20px 0;
   width: 100vw;
@@ -336,7 +346,7 @@ p {
 /* ABOUT SECTION */
 
 #AboutPage {
-  height: auto;
+  margin-top: 100px;
   min-height: 100vh;
   width: 100vw;
   display: grid;
@@ -346,12 +356,17 @@ p {
 }
 
 .aside {
-  top: 0;
+  top: 100px;
   height: 100vh;
   flex-direction: column;
   position: sticky;
   padding: 10px;
   border-right: 2px solid white;
+}
+
+.main {
+  margin-top: 50px;
+  position: relative;
 }
 
 .secone {
@@ -362,17 +377,18 @@ p {
 }
 
 .sectwo {
+  margin-top: 30px;
   display: flex;
   padding: 10px;
-  height: 100%;
+  height: fit-content;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .profile {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   border: 5px ridge var(--text-muted);
 }
@@ -390,19 +406,21 @@ p {
 .a2 {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
 }
 
 .a1 > p {
   display: flex;
-  gap: 5px;
-  font-size: smaller;
+  gap: 2px;
+  font-size: small;
+  letter-spacing: 1px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .a2 > ul > li {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: var(--text-muted);
+  font-size: small;
 }
 
 .a2 > h4 {
@@ -493,7 +511,8 @@ p {
 
 .abt > p {
   color: var(--accent-cyan);
-  font-size: medium;
+  font-size: small;
+  font-weight: bold;
 }
 
 .abt > h3 {
@@ -655,6 +674,7 @@ p {
     height: 200px;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
   .head {
     flex-direction: column;
@@ -674,6 +694,10 @@ p {
   }
 
   /* HEROSECTION */
+
+  #HeroBody {
+    margin-top: 50px;
+  }
 
   .profile-sec {
     min-width: fit-content;
@@ -728,6 +752,7 @@ p {
   #AboutPage {
     width: 100vw;
     padding: 0;
+    margin-top: 40px;
   }
 
   .aside {
@@ -750,6 +775,10 @@ p {
   .edu {
     text-align: center;
     width: 100vw;
+  }
+
+  .skills {
+    padding: 40px 10px;
   }
 
   .education {
@@ -800,6 +829,10 @@ p {
   }
 
   /* PROJECTS */
+
+  #ProjectPage {
+    margin-top: 40px;
+  }
 
   .project {
     text-align: center;

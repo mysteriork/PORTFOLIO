@@ -1,12 +1,17 @@
 import { useNavigate } from "react-router-dom"
 import "../portfolio.css"
 import icon from "../assets/icon.png"
-function Navbar() {
+
+interface NavbarProps {
+    isFixed: boolean
+}
+
+function Navbar({ isFixed }: NavbarProps) {
 
     const navigate = useNavigate()
 
     return (<div>
-        <div id="Header" className="flex">
+        <div id="Header" className={isFixed ? "fixed flex" : "normal flex"}>
             <div className="flex head">
                 <span className="LogoName">
                     <strong className="Tname" onClick={() => navigate("/")}>Rachit ./dev</strong>
