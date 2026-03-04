@@ -1,15 +1,22 @@
-RACHIT'S PORTFOLIO IS LIVE ------> https://rachitkumardev.vercel.app/
+# RACHIT'S PORTFOLIO IS LIVE ------> https://rachitkumardev.vercel.app/
 
-Rachit Kumar — Developer Portfolio
-🕶️ RK // Developer Portfolio
+---
 
-    Full-Stack Developer
-    Security-Aware Engineer
-    System-Focused Builder
+## Rachit Kumar — Developer Portfolio
+## 🕶️ RK // Developer Portfolio
 
-A modern, performance-optimized portfolio built with a developer’s precision and a security-focused mindset. Designed to showcase scalable applications, structured engineering practices, and subtle cyber aesthetics.
++ Full-Stack Developer
++ Security-Aware Engineer
++ System-Focused Builder
 
-🔍 Portfolio Highlights
+---
+
+A modern, performance-optimized portfolio built with a developer’s precision and a security-focused mindset.
+Designed to showcase scalable applications, structured engineering practices, and subtle cyber aesthetics.
+
+---
+
+### 🔍 Portfolio Highlights
 
 Responsive grid-based layout
 
@@ -20,20 +27,27 @@ Project data modularization
 Security-themed UI detailing
 
 Clean, modern visual hierarchy
-OVERVIEW OF APP :
 
-Screenshot 2026-02-24 001505
+---
+## OVERVIEW OF APP :
 
-🌐 Connect
+<img width="1731" height="938" alt="Screenshot 2026-02-24 001505" src="https://github.com/user-attachments/assets/74685990-b6ba-4503-8dd1-8ab91e4f1a41" />
 
-GitHub → https://github.com/mysteriork
+---
 
-LinkedIn → https://linkedin.com/in/rachit-rk
+###  🌐 Connect
 
-Email → callmerachit145@gmail.com
-🛡️ Engineering Principle
+GitHub   → https://github.com/mysteriork 
 
+LinkedIn → https://linkedin.com/in/rachit-rk 
+
+Email    → callmerachit145@gmail.com
+
+---
+
+### 🛡️ Engineering Principle
 Build systems that are scalable by design and resilient by intent.
-📄 License
+
+### 📄 License
 
 This project is open-source and available for learning and inspiration.
