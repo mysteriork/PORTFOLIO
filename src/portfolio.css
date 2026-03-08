@@ -359,7 +359,7 @@ p {
 
 .aside {
   top: 100px;
-  height: 100vh;
+  height: fit-content;
   flex-direction: column;
   position: sticky;
   padding: 10px;
@@ -787,6 +787,9 @@ p {
     padding: 40px 10px;
   }
 
+  .skill>p{
+    padding: 5px 20px;
+  }
   .education {
     width: 100vw;
     gap: 10px;
@@ -903,7 +906,7 @@ p {
     padding: 10px;
   }
 
-  .main-para{
+  .main-para {
     width: 100vw;
     padding: 0 20px;
   }
