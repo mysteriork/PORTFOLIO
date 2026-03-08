@@ -54,12 +54,10 @@ function About() {
                 </aside>
                 <main className="main">
                     <section>
-
-                    </section>
-                    <section>
                         {data && data[0] && (<div className="education">
-                            <h2 >{data[0].title}</h2>
                             <article className="edu">
+                                <h2 >{data[0].title}</h2>
+
                                 <ul>
                                     <li>{data[0].college}</li>
                                     <li>{data[0].major}</li>
