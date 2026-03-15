@@ -103,8 +103,10 @@ function About() {
                                 <p>{data[1].Focus}</p>
                                 <br />
                                 <div className="end"><p>{`" ${data[1].end} "`}</p></div>
+                                <br />
 
                             </article>
+                            <br />
 
                         </div>)}
                     </section>

@@ -32,18 +32,23 @@ function Footer() {
                     </article>
                 </section>
                 <section className="foot">
-                    <a href="/about">About</a>
-                    <a href="/project">Projects</a>
-                    <a href="/">Home</a>
-                    <article className='footerbase'>
-                        <p><img src={phone} alt="phone.png" />  (+91) 9358974425</p>
-                        <p><img src={email} alt="email.png" /> callmerachit145@gmail.com</p>
+                    <div></div>
+                    <article className='footerbase foot2'>
+                        <div>
+                            <p><img src={phone} alt="phone.png" />  (+91) 9358974425</p>
+                            <p><img src={email} alt="email.png" /> callmerachit145@gmail.com</p>
+                        </div>
 
-                        <article>
-                            <p><a href={github} target='_blank'>Github</a><img src={gitpic} alt="github.png" /></p>
-                            <p><a href={linkedin} target='_blank'>LinkedIn</a><img src={linkedinpic} alt="linkedin.png" /></p>
 
-                            <a href="/Resume.pdf" download target="_blank"  className='foot-btn'>Download Resume</a>
+                        <article className="footerbase2">
+                            <div>
+                                <a href={github} target='_blank'>Github</a><img src={gitpic} alt="github.png" />
+                            </div>
+                            <div>
+                                <a href={linkedin} target='_blank'>LinkedIn</a><img src={linkedinpic} alt="linkedin.png" />
+                            </div>
+
+                            <a href="/Resume.pdf" download target="_blank" className='foot-btn'>Download Resume</a>
 
                         </article>
 

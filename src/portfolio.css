@@ -50,13 +50,13 @@ p {
 /* NAVBAR SECTION */
 
 #Header {
-  padding: 15px;
+  padding: 5px;
   justify-content: space-between;
   top: 0;
   width: 100vw;
-  height: 100px;
-  backdrop-filter: blur(5px);
-  border-bottom: 2px solid rgb(253, 252, 252);
+  height: 80px;
+  backdrop-filter: blur(8px);
+  border-bottom: 3px ridge var(--text-primary);
   z-index: 9999;
 }
 
@@ -89,7 +89,7 @@ p {
   align-items: center;
   width: fit-content;
   justify-content: center;
-  min-height: 60px;
+  height: 55px;
   font-size: 1.1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -101,6 +101,11 @@ p {
 .btn:hover {
   transform: scale(1.05);
   border: 1px solid white;
+}
+
+.icon > img {
+  height: 25px;
+  margin-right: 10px;
 }
 
 /* HERO SECTION  */
@@ -180,6 +185,11 @@ p {
   filter: drop-shadow(0 0 5px rgb(7, 7, 7));
 }
 
+.str1,
+.str2 {
+  color: var(--accent-cyan);
+}
+
 .main-line > em {
   color: var(--text-muted);
 }
@@ -243,7 +253,7 @@ p {
 #ProjectPage {
   margin-top: 30px;
   min-height: 100vh;
-  padding: 20px 0;
+  padding: 40px 0;
   width: 100vw;
   height: auto;
 }
@@ -265,7 +275,7 @@ p {
   margin-top: 5px;
   padding: 10px;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
 .project {
@@ -348,7 +358,7 @@ p {
 /* ABOUT SECTION */
 
 #AboutPage {
-  margin-top: 100px;
+  margin-top: 80px;
   min-height: 100vh;
   width: 100vw;
   display: grid;
@@ -358,12 +368,12 @@ p {
 }
 
 .aside {
-  top: 100px;
+  top: 80px;
   height: fit-content;
   flex-direction: column;
   position: sticky;
   padding: 10px;
-  border-right: 2px solid white;
+  border-right: 3px solid var(--border-subtle);
 }
 
 .main {
@@ -392,11 +402,11 @@ p {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  border: 5px ridge var(--text-muted);
+  border: 2px solid var(--text-primary);
 }
 
 .linkicon > a > img {
-  height: 30px;
+  height: 25px;
   transition: filter 0.1s ease-in;
 }
 
@@ -598,7 +608,7 @@ p {
 
 #Footermain {
   border-top: 4px ridge var(--border-subtle);
-  min-height: 500px;
+  min-height: 430px;
   width: 100vw;
   display: flex;
 }
@@ -624,6 +634,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  height: fit-content;
 }
 
 .foot > a {
@@ -637,24 +648,34 @@ p {
   gap: 3px;
 }
 
-.footerbase > article > p {
+.footerbase > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerbase > div > p > img {
+  height: 18px;
+}
+
+.footerbase2 > div {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.footerbase > article > p > a {
+.footerbase2 > div > a {
   list-style: none;
   color: var(--accent-cyan);
   font-weight: bold;
 }
 
-.footerbase > article > p > img {
+.footerbase2 > div > img {
   height: 20px;
   width: 20px;
 }
 
-.footerbase > p {
+.footerbase > div {
   font-size: medium;
 }
 
@@ -669,7 +690,7 @@ p {
   color: var(--accent-green);
 }
 
-.footerbase > p > img {
+.footerbase > div > img {
   height: 20px;
 }
 /* -----RESPONSIVENESS----- */
@@ -681,6 +702,7 @@ p {
     align-items: center;
     position: relative;
   }
+
   .head {
     flex-direction: column;
     height: inherit;
@@ -689,6 +711,12 @@ p {
 
   .NavSec {
     justify-content: center;
+  }
+
+  .icon > img {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
   }
 
   .btn {
@@ -715,8 +743,8 @@ p {
   }
 
   .profile-pic-sec > img {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
   }
 
   .main-line,
@@ -746,6 +774,14 @@ p {
     width: 100vw;
     font-size: small;
     align-items: center;
+  }
+
+  .foot2 {
+    align-items: center;
+  }
+
+  .foot2 > div > p {
+    font-size: small;
   }
 
   .a1 {
@@ -787,7 +823,7 @@ p {
     padding: 40px 10px;
   }
 
-  .skill>p{
+  .skill > p {
     padding: 5px 20px;
   }
   .education {
@@ -805,6 +841,10 @@ p {
     width: 100vw;
     padding: 0;
     padding-bottom: 10px;
+  }
+
+  .end {
+    margin-bottom: 20px;
   }
 
   .edu1 > h3 {
@@ -860,6 +900,11 @@ p {
   .project > p {
     font-size: small;
     font-weight: bold;
+  }
+
+  .demo-btn {
+    gap: 2px;
+    font-size: small;
   }
 }
 

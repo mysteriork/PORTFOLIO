@@ -29,7 +29,7 @@ function Hero() {
                             </h3><em>"Building secure, analyzable, and maintainable systems"</em>
                         </article>
                         <br />
-                        <article className="main-para flex"><p>Hi, I’m a <strong style={{ color: "skyblue" }}>Full-stack Developer</strong> who enjoys building complete, thoughtful web applications—from clean user interfaces to reliable backend systems. Alongside full-stack development, I have a strong interest in <strong style={{ color: "skyblue" }}>Cyber Forensics and Security</strong>, which naturally shapes how I think about system design, data handling, and reliability. </p><h3>This portfolio is a collection of work that reflects both what I build and how I think as an engineer.</h3></article>
+                        <article className="main-para flex"><p>Hi, I’m a <strong className="str1">Full-stack Developer</strong> who enjoys building complete, thoughtful web applications—from clean user interfaces to reliable backend systems. Alongside full-stack development, I have a strong interest in <strong className="str2">Cyber Forensics and Security</strong>, which naturally shapes how I think about system design, data handling, and reliability. </p><h3>This portfolio is a collection of work that reflects both what I build and how I think as an engineer.</h3></article>
                         <br />
                         <div id="mainBtn">
                             <article className="links">
