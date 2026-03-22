@@ -85,7 +85,7 @@ p {
 .Tname {
   font-size: 2rem;
   color: rgb(253, 254, 255);
-  text-shadow: 2px 2px 2px rgb(237, 144, 144);
+  text-shadow: 2px 2px 4px rgb(249, 110, 138);
   cursor: pointer;
 }
 
@@ -477,7 +477,7 @@ p {
 }
 
 .skill-group:hover span {
-  filter: drop-shadow(0 0 6px var(--accent-green));
+  filter: drop-shadow(0 0 6px rgb(232, 30, 128));
 }
 
 .skill-group {
@@ -496,8 +496,8 @@ p {
   height: fit-content;
   width: fit-content;
   position: relative;
-  color: var(--text-muted);
-  border: 1px solid var(--text-muted);
+  color: var(--accent-green);
+  border: 1px solid var(--accent-green);
   border-radius: 10px;
   background-color: var(--bg-surface);
   transition: filter 0.1s ease-out;
@@ -523,12 +523,12 @@ p {
   text-align: center;
   min-width: 40px;
   width: fit-content;
-  border: 1px solid var(--accent-green);
-  color: var(--accent-green);
+  border: 2px solid rgb(186, 15, 98);
+  color: rgb(251, 138, 195);
   border-radius: 20px;
   padding: 0 6px;
   background-color: var(--bg-surface);
-  filter: drop-shadow(0 0 3px var(--accent-green));
+  filter: drop-shadow(0 0 2px rgb(186, 15, 98));
 }
 
 .resbtn {

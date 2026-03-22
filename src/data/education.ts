@@ -32,7 +32,6 @@ export const skills = [
     category: "Frontend Development",
     list: [
       "Reactjs",
-      "Vite",
       "HTML5",
       "CSS3",
       "JavaScript",
