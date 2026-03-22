@@ -1,4 +1,4 @@
-# RACHIT'S PORTFOLIO IS LIVE ------> https://rachitkumardev.vercel.app/
+# PORTFOLIO IS LIVE -> https://rachitkumardev.vercel.app/
 
 ---
 
