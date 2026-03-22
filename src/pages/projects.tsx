@@ -21,7 +21,7 @@ function Project() {
                             <h3>Impact</h3>
                             <p>{item.impact}</p>
                             <h3>Tech Skills</h3>
-                            <p className='tech'>{item.Tech_stack}</p>
+                            <p className='tech-skills' style={{ color: "gold" }}>{item.Tech_stack}</p>
                             <h3>Explore More</h3>
                             <section className='demo-btn-sec'>
                                 <div className='demo-btn'>
