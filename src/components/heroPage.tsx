@@ -15,7 +15,7 @@ function Hero() {
             <main className="container HeroMain">
                 <div className="hero container">
                     <section className="profile-sec flex">
-                        <h1 className="heading">WELCOME TO RK'S SPACE !!!</h1>
+                        <h1 className="heading">WELCOME TO RK'S SPACE !</h1>
                         <article className="profile-pic-sec">
                             <img src={profilePic} alt="profile-pic" className="picture" />
                         </article>

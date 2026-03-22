@@ -69,28 +69,18 @@ function About() {
                             </article>
                             <article className="edu skills">
                                 <h2>TECHNICAL SKILLS</h2>
-                                <section className="skill">
-                                    <h3>Core Languages</h3>
-                                    <p>{skills.core}</p>
-                                </section><section className="skill">
-                                    <h3>Frontend</h3>
-                                    <p>{skills.frontend}</p>
-                                </section><section className="skill">
-                                    <h3>Backend</h3>
-                                    <p>{skills.backend}</p>
-                                </section><section className="skill">
-                                    <h3>Tools and Platforms</h3>
-                                    <p>{skills.tools}</p>
-                                </section>
-
-                                <section className="skill">
-                                    <h3>Concepts</h3>
-                                    <p>{skills.Concepts}</p>
-                                </section>
-                                <section className="skill">
-                                    <h3>Cyber Security</h3>
-                                    <p>{skills.Cyber}</p>
-                                </section>
+                                {skills.map((group, index) => (
+                                    <div key={index} className="skill-group">
+                                        <h3>{group.category}</h3>
+                                        <div className="skill-list">
+                                            {group.list.map((skill, i) => (
+                                                <span key={i} className="skill-badge">
+                                                    {skill}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ))}
                             </article>
                             <article className="edu1 flex" style={{ gap: "20px", flexDirection: "column" }}>
                                 <h3>System Design Mindset</h3>

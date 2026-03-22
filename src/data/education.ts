@@ -23,16 +23,72 @@ export const data = [
   },
 ];
 
-export const skills = {
-  core: "C | C++ | Python | JavaScript",
-  frontend:
-    "Reactjs | Vite | HTML5 | CSS3 | JavaScript | TypeScript | Tailwind CSS | Redux/Context API | Hooks | State Management",
-  backend:
-    "Nodejs | Expressjs | REST API Development | CRUD operation | FastApi ",
-  tools: "Git/Github | Postman | VS Code | PyCharm | Docker | Kali Linux",
-  databases: "MongoDB, MySQL",
-  Cyber:
-    "Kali Linux | Cyber & Forensics Tools | Nmap | WireShark | DOS & DDOS | Cryptography | Steganography | Autopsy | FTK imager | Disk Imaging | JTR | Digital Forensics",
-  Concepts:
-    "Data Structure & Algorithm | Full Stack Mern Development | REST APIs | Authentication and Authorization | JWT token, OAuth | CRUD operations | MVC Architecture | API integration | Responsive Design | System Design Basics",
-};
+export const skills = [
+  {
+    category: "Core Languages",
+    list: ["C", "C++", "Python", "JavaScript"],
+  },
+  {
+    category: "Frontend Development",
+    list: [
+      "Reactjs",
+      "Vite",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Context API",
+      "Hooks",
+      "State Management",
+    ],
+  },
+  {
+    category: "Backend Development",
+    list: [
+      "Nodejs",
+      "Expressjs",
+      "REST API Development",
+      "CRUD operation",
+      "FastApi",
+    ],
+  },
+  {
+    category: "Databases",
+    list: ["MongoDB", "MySQL", "PostgreSQL"],
+  },
+  {
+    category: "Cyber & Forensics",
+    list: [
+      "Kali Linux",
+      "Nmap",
+      "WireShark",
+      "DOS & DDOS",
+      "Cryptography",
+      "Steganography",
+      "Autopsy",
+      "FTK Imager",
+      "Disk Imaging",
+      "JTR",
+      "Digital Forensics",
+    ],
+  },
+  {
+    category: "Tools & Environment",
+    list: ["Git", "Github", "Postman", "VS Code", "PyCharm", "Docker", "Linux"],
+  },
+  {
+    category: "Technical Concepts",
+    list: [
+      "Data Structures & Algorithms",
+      "MERN Stack",
+      "Authentication",
+      "Authorization",
+      "JWT",
+      "OAuth",
+      "MVC Architecture",
+      "System Design Basics",
+    ],
+  },
+];

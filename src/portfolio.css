@@ -11,6 +11,18 @@ html {
   background-repeat: no-repeat;
 }
 
+@media (prefers-color-scheme: dark) {
+  p {
+    color: var(--text-primary);
+  }
+  body {
+    color: var(--text-primary);
+  }
+  button {
+    background-color: var(--bg-surface);
+  }
+}
+
 :root {
   --bg-primary: #020617;
   --bg-surface: #020617;
@@ -54,8 +66,8 @@ p {
   justify-content: space-between;
   top: 0;
   width: 100vw;
-  height: 80px;
-  backdrop-filter: blur(8px);
+  height: 70px;
+  backdrop-filter: blur(10px);
   border-bottom: 3px ridge var(--text-primary);
   z-index: 9999;
 }
@@ -89,11 +101,12 @@ p {
   align-items: center;
   width: fit-content;
   justify-content: center;
-  height: 55px;
+  height: 45px;
   font-size: 1.1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
+  padding: 8px;
   background-color: #0d0d0d;
   border: 1px solid white;
   transition: transform 0.3s ease;
@@ -141,6 +154,7 @@ p {
 .heading {
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .hero {
@@ -153,10 +167,11 @@ p {
 }
 
 .profile-sec {
-  height: 400px;
-  min-width: 500px;
+  height: 450px;
+  width: fit-content;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-inline: auto;
 }
 
 .profile-pic-sec > img {
@@ -276,6 +291,7 @@ p {
   padding: 10px;
   flex-direction: column;
   gap: 50px;
+  width: 65rem;
 }
 
 .project {
@@ -310,12 +326,16 @@ p {
 .project > h3 {
   color: var(--accent-green);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }
 
 .project > p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
-  font-size: large;
+  font-size: medium;
+  color: var(--text-muted);
+  line-height: 25px;
+  word-spacing: 2px;
 }
 
 .demo-btn-sec {
@@ -456,39 +476,59 @@ p {
   font-size: 1.8rem;
 }
 
-.skills:hover h3 {
-  filter: drop-shadow(0 0 3px var(--accent-green));
+.skill-group:hover span {
+  filter: drop-shadow(0 0 6px var(--accent-green));
 }
 
-.skill {
+.skill-group {
   display: flex;
   gap: 20px;
-  min-height: 80px;
   align-items: center;
+  margin-top: 10px;
 }
 
-.skill > h3 {
+.skill-group > h3 {
+  display: flex;
+  align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-  padding: 5px;
+  font-size: smaller;
+  padding: 8px;
+  height: fit-content;
   width: fit-content;
-  border: 1px solid var(--accent-green);
-  background-color: var(--bg-surface);
-  color: var(--accent-green);
+  position: relative;
+  color: var(--text-muted);
+  border: 1px solid var(--text-muted);
   border-radius: 10px;
+  background-color: var(--bg-surface);
   transition: filter 0.1s ease-out;
 }
 
-.skill > p {
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  font-size: medium;
-  font-weight: bold;
-  word-spacing: 5px;
-  letter-spacing: 1px;
-  line-height: 22px;
+.skill-list {
   width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill-badge {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+  word-spacing: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 32px;
+  min-height: 40px;
+  text-align: center;
+  min-width: 40px;
+  width: fit-content;
+  border: 1px solid var(--accent-green);
+  color: var(--accent-green);
+  border-radius: 20px;
+  padding: 0 6px;
+  background-color: var(--bg-surface);
+  filter: drop-shadow(0 0 3px var(--accent-green));
 }
 
 .resbtn {
@@ -558,6 +598,7 @@ p {
 
 .edu {
   padding: 15px;
+  padding-bottom: 30px;
   border-bottom: 1px solid var(--text-muted);
 }
 
@@ -819,13 +860,6 @@ p {
     width: 100vw;
   }
 
-  .skills {
-    padding: 40px 10px;
-  }
-
-  .skill > p {
-    padding: 5px 20px;
-  }
   .education {
     width: 100vw;
     gap: 10px;
@@ -845,6 +879,7 @@ p {
 
   .end {
     margin-bottom: 20px;
+    max-width: 300px;
   }
 
   .edu1 > h3 {
@@ -853,37 +888,50 @@ p {
   }
 
   .edu1 > p {
-    width: 310px;
+    max-width: 330px;
     font-size: medium;
+    font-weight: 500;
+    color: var(--text-muted);
   }
 
   .end > p {
-    font-size: small;
+    font-size: smaller;
+    font-weight: lighter;
     width: 300px;
+    color: var(--text-primary);
   }
 
   .skill > h3 {
-    font-size: 0.9rem;
+    font-size: small;
   }
 
-  .skill > p {
+  .skill-badge {
     text-align: center;
-    font-size: medium;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: bold;
   }
 
   .skills {
     gap: 20px;
   }
 
-  .skill {
+  .skill-group {
     flex-direction: column;
+  }
+
+  .skill-list {
+    width: 300px;
+    justify-content: center;
   }
 
   /* PROJECTS */
 
   #ProjectPage {
     margin-top: 40px;
+  }
+
+  .projects {
+    width: fit-content;
   }
 
   .project {
@@ -935,6 +983,10 @@ p {
   .edu1 {
     width: 100vw;
     padding: 0;
+  }
+
+  .projects {
+    width: fit-content;
   }
 
   .edu1 > p {
