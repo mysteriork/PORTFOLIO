@@ -207,6 +207,7 @@ p {
 
 .main-line > em {
   color: var(--text-muted);
+  font-size: large;
 }
 
 .main-para {
@@ -221,7 +222,10 @@ p {
 
 .main-para > h3 {
   color: var(--text-muted);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: 500;
 }
 
 .about-btn {
@@ -310,7 +314,6 @@ p {
 .project:hover {
   box-shadow: 0 0 13px var(--accent-green);
 }
-
 
 .project > h2 {
   margin-bottom: 20px;
@@ -481,7 +484,7 @@ p {
   display: flex;
   gap: 20px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .skill-group > h3 {
@@ -494,7 +497,7 @@ p {
   width: fit-content;
   position: relative;
   color: var(--accent-green);
-  border: 1px solid var(--accent-green);
+  border: 2px solid var(--accent-green);
   border-radius: 10px;
   background-color: var(--bg-surface);
   transition: filter 0.1s ease-out;
@@ -506,7 +509,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 5px;
 }
 
 .skill-badge {
@@ -520,7 +523,7 @@ p {
   text-align: center;
   min-width: 40px;
   width: fit-content;
-  border: 2px solid rgb(186, 15, 98);
+  border: 1px solid rgb(186, 15, 98);
   color: rgb(251, 138, 195);
   border-radius: 20px;
   padding: 0 6px;
@@ -561,7 +564,7 @@ p {
 
 .abt > p {
   color: var(--accent-cyan);
-  font-size: small;
+  font-size: smaller;
   font-weight: bold;
 }
 
@@ -605,6 +608,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   font-weight: 600;
 }
@@ -631,12 +635,11 @@ p {
 
 .end > p {
   width: 800px;
-  font-size: medium;
+  font-size: smaller;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--text-muted);
   text-transform: capitalize;
   font-style: italic;
-  font-weight: bold;
   text-align: center;
   letter-spacing: 1.8px;
   line-height: 20px;
@@ -770,14 +773,23 @@ p {
     margin-top: 50px;
   }
 
+  .titlename {
+    font-size: large;
+  }
+
   .profile-sec {
     min-width: fit-content;
     height: 350px;
   }
 
+  .main-para > h3 {
+    font-size: smaller;
+  }
+
   .heading {
-    font-size: larger;
-    width: 300px;
+    font-size: large;
+    width: 350px;
+    line-height: 25px;
   }
 
   .profile-pic-sec > img {
@@ -789,6 +801,16 @@ p {
   .main-para {
     width: 100vw;
     padding: 15px;
+  }
+
+  .main-line > h3 {
+    font-size: large;
+  }
+
+  .main-line > em {
+    font-size: smaller;
+    font-weight: bold;
+    width: 250px;
   }
 
   .links {
@@ -847,14 +869,22 @@ p {
 
   .edu > ul {
     text-align: center;
-    list-style: none;
     font-weight: 500;
-    font-size: medium;
+    font-size: smaller;
+    list-style: none;
+  }
+
+  .edu > ul > li:hover {
+    text-decoration: underline;
   }
 
   .edu {
     text-align: center;
     width: 100vw;
+  }
+
+  .edu > h2 {
+    font-size: x-large;
   }
 
   .education {
@@ -892,10 +922,11 @@ p {
   }
 
   .end > p {
-    font-size: smaller;
+    font-size: x-small;
     font-weight: lighter;
     width: 300px;
     color: var(--text-primary);
+    font-style: italic;
   }
 
   .skill > h3 {
@@ -937,6 +968,10 @@ p {
 
   .project > h3 {
     font-size: medium;
+  }
+
+  .projectSec > h1 {
+    font-size: x-large;
   }
 
   .project > h2 {

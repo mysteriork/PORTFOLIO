@@ -14,7 +14,7 @@ function Navbar({ isFixed }: NavbarProps) {
         <div id="Header" className={isFixed ? "fixed flex" : "normal flex"}>
             <div className="flex head">
                 <span className="LogoName">
-                    <strong className="Tname" onClick={() => navigate("/")}>Rachit ./dev</strong>
+                    <strong className="Tname" onClick={() => navigate("/")}>Rachit . /dev</strong>
                 </span>
                 <section className="NavSec flex">
                     <button className="btn" onClick={() => navigate("/about")}>About me</button>

@@ -7,7 +7,7 @@ function Project() {
     return (
         <div id='ProjectPage'>
             <div className="projectSec container flex">
-                <h1>Top Projects </h1>
+                <h1>{`< Top Projects /> `}</h1>
                 <div className="projects">
                     {data && data.map((item: any, id) => (
                         <article className='project' key={id}>

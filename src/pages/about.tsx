@@ -56,7 +56,7 @@ function About() {
                     <section>
                         {data && data[0] && (<div className="education">
                             <article className="edu">
-                                <h2 >{data[0].title}</h2>
+                                <h2 >{`< ${data[0].title} />`}</h2>
 
                                 <ul>
                                     <li>{data[0].college}</li>
@@ -65,10 +65,10 @@ function About() {
                                     <li>Duration: {data[0].cdate}</li>
                                     <li>CGPA: {data[0].cgpa}</li>
                                 </ul>
-                                <em style={{ color: "lightgreen" }} >( I am Currently in Final year )</em>
+
                             </article>
                             <article className="edu skills">
-                                <h2>TECHNICAL SKILLS</h2>
+                                <h2>{`< TECHNICAL SKILLS />`}</h2>
                                 {skills.map((group, index) => (
                                     <div key={index} className="skill-group">
                                         <h3>{group.category}</h3>
@@ -92,7 +92,7 @@ function About() {
                                 <h3>Focus</h3>
                                 <p>{data[1].Focus}</p>
                                 <br />
-                                <div className="end"><p>{`" ${data[1].end} "`}</p></div>
+                                <div className="end"><p>{`"${data[1].end}"`}</p></div>
                                 <br />
 
                             </article>

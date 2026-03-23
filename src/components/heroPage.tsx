@@ -15,7 +15,7 @@ function Hero() {
             <main className="container HeroMain">
                 <div className="hero container">
                     <section className="profile-sec flex">
-                        <h1 className="heading">WELCOME TO RK'S SPACE !</h1>
+                        <h1 className="heading">{`< WELCOME TO RK'S SPACE ! />`}</h1>
                         <article className="profile-pic-sec">
                             <img src={profilePic} alt="profile-pic" className="picture" />
                         </article>
@@ -25,7 +25,7 @@ function Hero() {
 
                     <div className="about-sec flex">
                         <article className="main-line flex">
-                            <h3>Full-Stack Developer with a Security-Aware Engineering Mindset
+                            <h3>Full-Stack Developer with a Security-Aware Engineering Mindset 
                             </h3><em>"Building secure, analyzable, and maintainable systems"</em>
                         </article>
                         <br />
