@@ -477,7 +477,7 @@ p {
 }
 
 .skill-group:hover span {
-  filter: drop-shadow(0 0 6px rgb(232, 30, 128));
+  filter: drop-shadow(0 0 8px rgb(232, 30, 128));
 }
 
 .skill-group {
@@ -523,12 +523,11 @@ p {
   text-align: center;
   min-width: 40px;
   width: fit-content;
-  border: 1px solid rgb(186, 15, 98);
+  border: 4px ridge var(--border-subtle);
   color: rgb(251, 138, 195);
   border-radius: 20px;
   padding: 0 6px;
   background-color: var(--bg-surface);
-  filter: drop-shadow(0 0 2px rgb(186, 15, 98));
 }
 
 .resbtn {
