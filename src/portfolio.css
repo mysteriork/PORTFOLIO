@@ -675,6 +675,7 @@ p {
 .a1 > h4 {
   color: var(--text-primary);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .foot {
@@ -856,6 +857,11 @@ p {
     align-items: center;
   }
 
+  .a1 > h4 {
+    font-weight: bold;
+    color: var(--text-muted);
+  }
+
   /* ABOUT */
 
   #AboutPage {
@@ -884,6 +890,10 @@ p {
 
   .edu > ul > li:hover {
     text-decoration: underline;
+  }
+  .edu > ul > li {
+    color: var(--text-muted);
+    font-weight: bold;
   }
 
   .edu {
