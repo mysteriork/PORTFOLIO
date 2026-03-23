@@ -19,6 +19,7 @@ html {
     color: var(--text-primary);
   }
   button {
+    color: var(--text-primary);
     background-color: var(--bg-surface);
   }
 }
@@ -106,6 +107,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
+  color: var(--text-primary);
   padding: 8px;
   background-color: #0d0d0d;
   border: 1px solid white;
@@ -133,6 +135,7 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 3px;
   font-weight: bolder;
+  color: var(--text-primary);
 }
 
 .links {
@@ -239,6 +242,7 @@ p {
   font-family: monospace;
   border: none;
   outline: 2px solid var(--accent-cyan);
+  color: var(--text-primary);
   background-color: var(--border-subtle);
   transition: background-color 0.2s ease-in;
 }
@@ -612,6 +616,10 @@ p {
   font-weight: 600;
 }
 
+.edu > ul > li {
+  color: var(--text-primary);
+}
+
 .edu1 {
   padding: 10px;
   margin-top: 20px;
@@ -665,6 +673,7 @@ p {
   color: rgb(2, 146, 2);
 }
 .a1 > h4 {
+  color: var(--text-primary);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
