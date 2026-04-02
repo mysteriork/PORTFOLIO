@@ -57,6 +57,40 @@ export const skills = [
     category: "Databases",
     list: ["MongoDB", "MySQL", "PostgreSQL"],
   },
+
+  {
+    category: "Tools & Environment",
+    list: [
+      "AI Integration",
+      "LLM",
+      "LangChain",
+      "GenAI",
+      "Git",
+      "Github",
+      "Postman",
+      "VS Code",
+      "PyCharm",
+      "Docker",
+      "Linux",
+      "AWS",
+      "vercel",
+      "Netlify",
+      "Render",
+    ],
+  },
+  {
+    category: "Technical Concepts",
+    list: [
+      "Data Structures & Algorithms",
+      "MERN Stack",
+      "Authentication",
+      "Authorization",
+      "JWT",
+      "OAuth",
+      "MVC Architecture",
+      "System Design Basics",
+    ],
+  },
   {
     category: "Cyber & Forensics",
     list: [
@@ -71,23 +105,6 @@ export const skills = [
       "Disk Imaging",
       "JTR",
       "Digital Forensics",
-    ],
-  },
-  {
-    category: "Tools & Environment",
-    list: ["Git", "Github", "Postman", "VS Code", "PyCharm", "Docker", "Linux"],
-  },
-  {
-    category: "Technical Concepts",
-    list: [
-      "Data Structures & Algorithms",
-      "MERN Stack",
-      "Authentication",
-      "Authorization",
-      "JWT",
-      "OAuth",
-      "MVC Architecture",
-      "System Design Basics",
     ],
   },
 ];

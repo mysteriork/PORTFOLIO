@@ -189,6 +189,7 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  backdrop-filter: blur(3px);
 }
 
 .main-line {
@@ -470,6 +471,7 @@ p {
   gap: 10px;
   padding: 15px;
   min-height: 500px;
+  backdrop-filter: blur(8px);
 }
 
 .skills > h2 {
@@ -513,7 +515,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
 
 .skill-badge {
@@ -532,6 +534,7 @@ p {
   border-radius: 20px;
   padding: 0 6px;
   background-color: var(--bg-surface);
+  transition: filter 0.2s ease-out;
 }
 
 .resbtn {
